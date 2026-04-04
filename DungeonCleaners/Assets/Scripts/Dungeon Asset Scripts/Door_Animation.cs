@@ -16,7 +16,7 @@ public class Door_Animation : MonoBehaviour
     public float fadeDuration = 1.0f;            // How long the fade takes
 
     [Header("Scene Loading")]
-    public int sceneIndexToLoad = 0;             // The scene index to load
+    public string sceneIndexToLoad = "Overworld";             // The scene index to load
 
     private bool isTransitioning = false;        // Prevents the sequence from triggering twice
 
