@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 85b1ac38eefb2b247a4b5b4b19fda23e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8480207236424062149
+    second: SlimeBlue_Walk_0
+  - first:
+      213: 5816801375422578617
+    second: SlimeBlue_Walk_1
+  - first:
+      213: 5561864763104497576
+    second: SlimeBlue_Walk_2
+  - first:
+      213: -8541676798379514509
+    second: SlimeBlue_Walk_3
+  - first:
+      213: 5558162054724477933
+    second: SlimeBlue_Walk_4
+  - first:
+      213: 1796451419591703769
+    second: SlimeBlue_Walk_5
+  - first:
+      213: -4745067080245073060
+    second: SlimeBlue_Walk_6
+  - first:
+      213: -4368300787257004282
+    second: SlimeBlue_Walk_7
+  - first:
+      213: -8066223367202213085
+    second: SlimeBlue_Walk_8
+  - first:
+      213: 7325606828886138435
+    second: SlimeBlue_Walk_9
+  - first:
+      213: -4472242120594155436
+    second: SlimeBlue_Walk_10
+  - first:
+      213: 5742368164306896211
+    second: SlimeBlue_Walk_11
+  - first:
+      213: 7291212354406182828
+    second: SlimeBlue_Walk_12
+  - first:
+      213: -1423613825933206934
+    second: SlimeBlue_Walk_13
+  - first:
+      213: -6016894139370503759
+    second: SlimeBlue_Walk_14
+  - first:
+      213: 3158169274425721734
+    second: SlimeBlue_Walk_15
+  - first:
+      213: 1974310075377608770
+    second: SlimeBlue_Walk_16
+  - first:
+      213: -3751000748720318606
+    second: SlimeBlue_Walk_17
+  - first:
+      213: 8090751956192063271
+    second: SlimeBlue_Walk_18
+  - first:
+      213: 7252618276608887563
+    second: SlimeBlue_Walk_19
+  - first:
+      213: 5207411818706328203
+    second: SlimeBlue_Walk_20
+  - first:
+      213: 8709327870544918965
+    second: SlimeBlue_Walk_21
+  - first:
+      213: 1244606103919015691
+    second: SlimeBlue_Walk_22
+  - first:
+      213: -3094322070926933769
+    second: SlimeBlue_Walk_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b2f33d270405a80800000000000000
+      internalID: -8480207236424062149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bff01f380e69b050800000000000000
+      internalID: 5816801375422578617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af0b95b886bf2d40800000000000000
+      internalID: 5561864763104497576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 31
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375a466253ed57980800000000000000
+      internalID: -8541676798379514509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 31
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de368ebb0fe822d40800000000000000
+      internalID: 5558162054724477933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc72015c074ee810800000000000000
+      internalID: 1796451419591703769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 31
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ba79681a2262eb0800000000000000
+      internalID: -4745067080245073060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 31
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fac77049da063c0800000000000000
+      internalID: -4368300787257004282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f4fe85940f0090800000000000000
+      internalID: -8066223367202213085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e1fef1998c9a560800000000000000
+      internalID: 7325606828886138435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458127c7c776fe1c0800000000000000
+      internalID: -4472242120594155436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355460bcb6df0bf40800000000000000
+      internalID: 5742368164306896211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 16
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafe15e71079f2560800000000000000
+      internalID: 7291212354406182828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 16
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a9ae794ce4e3ce0800000000000000
+      internalID: -1423613825933206934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 16
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b101bbb8a2bf7ca0800000000000000
+      internalID: -6016894139370503759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683c2bee83214db20800000000000000
+      internalID: 3158169274425721734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2486b5f9d88266b10800000000000000
+      internalID: 1974310075377608770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2771d4451b4c1fbc0800000000000000
+      internalID: -3751000748720318606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fef9a9900284070800000000000000
+      internalID: 8090751956192063271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b47c485e976a460800000000000000
+      internalID: 7252618276608887563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a59258571744840800000000000000
+      internalID: 5207411818706328203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b93d34ed8fbdd870800000000000000
+      internalID: 8709327870544918965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07306548aab54110800000000000000
+      internalID: 1244606103919015691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBlue_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0cfbd8872ce05d0800000000000000
+      internalID: -3094322070926933769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SlimeBlue_Walk_0: -8480207236424062149
+      SlimeBlue_Walk_1: 5816801375422578617
+      SlimeBlue_Walk_10: -4472242120594155436
+      SlimeBlue_Walk_11: 5742368164306896211
+      SlimeBlue_Walk_12: 7291212354406182828
+      SlimeBlue_Walk_13: -1423613825933206934
+      SlimeBlue_Walk_14: -6016894139370503759
+      SlimeBlue_Walk_15: 3158169274425721734
+      SlimeBlue_Walk_16: 1974310075377608770
+      SlimeBlue_Walk_17: -3751000748720318606
+      SlimeBlue_Walk_18: 8090751956192063271
+      SlimeBlue_Walk_19: 7252618276608887563
+      SlimeBlue_Walk_2: 5561864763104497576
+      SlimeBlue_Walk_20: 5207411818706328203
+      SlimeBlue_Walk_21: 8709327870544918965
+      SlimeBlue_Walk_22: 1244606103919015691
+      SlimeBlue_Walk_23: -3094322070926933769
+      SlimeBlue_Walk_3: -8541676798379514509
+      SlimeBlue_Walk_4: 5558162054724477933
+      SlimeBlue_Walk_5: 1796451419591703769
+      SlimeBlue_Walk_6: -4745067080245073060
+      SlimeBlue_Walk_7: -4368300787257004282
+      SlimeBlue_Walk_8: -8066223367202213085
+      SlimeBlue_Walk_9: 7325606828886138435
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
