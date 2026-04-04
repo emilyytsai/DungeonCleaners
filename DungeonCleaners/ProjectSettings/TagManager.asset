@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,12 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 1637787025
+    locked: 0
+  - name: Doors
+    uniqueID: 2592095791
+    locked: 0
+  - name: Fill Color
+    uniqueID: 1332434577
     locked: 0
   m_RenderingLayers:
   - Default
