@@ -30,7 +30,6 @@ public class EnemyAI : MonoBehaviour
     {
         if (playerTransform == null || isStunned)
         {
-            // If stunned or no player, ensure the animator knows we've stopped
             anim.SetFloat("Speed", 0f);
             return;
         }
@@ -46,33 +45,32 @@ public class EnemyAI : MonoBehaviour
         {
             Vector2 direction = (playerTransform.position - transform.position).normalized;
 
-            // Move the transform
             transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
 
-            // Flip the sprite based on direction
+            // Updated flip logic for left-facing sprites
             FlipSprite(direction.x);
             
-            // Update Animator Parameters
             anim.SetFloat("LookX", direction.x);
             anim.SetFloat("LookY", direction.y);
-            anim.SetFloat("Speed", 1f); // Setting Speed to 1 tells the animator we are moving
+            anim.SetFloat("Speed", 1f); 
         }
         else
         {
-            // Set speed to 0 to trigger the transition back to Idle
             anim.SetFloat("Speed", 0f);
         }
     }
 
     private void FlipSprite(float xDirection)
     {
-        if (xDirection > 0 && transform.localScale.x < 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-        else if (xDirection < 0 && transform.localScale.x > 0)
+        // INVERTED LOGIC: 
+        // If moving right, use negative scale. If moving left, use positive scale.
+        if (xDirection > 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (xDirection < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
