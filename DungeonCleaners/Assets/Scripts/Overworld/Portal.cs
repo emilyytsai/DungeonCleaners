@@ -22,6 +22,11 @@ public class Portal : MonoBehaviour
             pendingSpawnSoundName = spawnSoundName;
             shouldMovePlayer = true;
 
+            if (!string.IsNullOrEmpty(spawnSoundName) && AudioManager.instance != null)
+            {
+                AudioManager.instance.PlaySFX(spawnSoundName);
+            }
+
             SceneManager.sceneLoaded += OnSceneLoaded;
             SceneManager.LoadScene(targetSceneName);
         }
@@ -47,11 +52,6 @@ public class Portal : MonoBehaviour
                     // We must set the script's internal variable, not just the Animator!
                     moveScript.SyncFacingDirection(pendingFacing);
                     moveScript.FreezeInput(0.2f);
-                }
-
-                if (!string.IsNullOrEmpty(pendingSpawnSoundName) && AudioManager.instance != null)
-                {
-                    AudioManager.instance.Play(pendingSpawnSoundName);
                 }
             }
             shouldMovePlayer = false;
