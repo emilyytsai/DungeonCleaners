@@ -16133,7 +16133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5457797738201895129, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
       propertyPath: m_Size.y
-      value: 0.72250336
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5457797738201895129, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
       propertyPath: m_Material
