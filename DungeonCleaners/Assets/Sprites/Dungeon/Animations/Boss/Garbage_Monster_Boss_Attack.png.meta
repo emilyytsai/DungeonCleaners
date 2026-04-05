@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Garbage_Monster_Boss_Attack_0: 7330767358595623120
+      Garbage_Monster_Boss_Attack_1: 8453585832228367193
+      Garbage_Monster_Boss_Attack_2: -1947893060564065131
+      Garbage_Monster_Boss_Attack_3: 3808507815906168661
+      Garbage_Monster_Boss_Attack_4: 1648956841448260705
+      Garbage_Monster_Boss_Attack_5: 2953120667845058869
+      Garbage_Monster_Boss_Attack_6: 1472734337899787833
+      Garbage_Monster_Boss_Attack_7: 6350547996365025367
+      Garbage_Monster_Boss_Attack_8: -6057933768817447891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

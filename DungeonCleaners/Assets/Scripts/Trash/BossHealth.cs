@@ -5,6 +5,7 @@ public class BossHealth : MonoBehaviour
     [Header("Stats")]
     public int maxHealth = 100;
     public float damageCooldown = 0.4f;
+    public GameObject portalPrefab;
 
     private int currentHealth;
     private float lastHurtTime;
@@ -49,6 +50,17 @@ public class BossHealth : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Die");
+        }
+
+        if (portalPrefab != null)
+        {
+            // Spawn the portal at the boss's current position
+            // Quaternion.identity means "no rotation"
+            Instantiate(portalPrefab, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.LogWarning("BossHealth: No Portal Prefab assigned in the Inspector!");
         }
 
         // Destroy the boss after the death animation (0.5s delay)
