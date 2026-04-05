@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 5efe1fc6a82f34dabbe1d80ac94f5576
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 871688335077061357
+    second: Garbage_Monster_Boss_0
+  - first:
+      213: -3179390335692603248
+    second: Garbage_Monster_Boss_1
+  - first:
+      213: 8881039997103698043
+    second: Garbage_Monster_Boss_2
+  - first:
+      213: 571027016313784545
+    second: Garbage_Monster_Boss_3
+  - first:
+      213: -3747783577683370206
+    second: Garbage_Monster_Boss_4
+  - first:
+      213: 7221639809303063342
+    second: Garbage_Monster_Boss_5
+  - first:
+      213: -3931550165690152959
+    second: Garbage_Monster_Boss_6
+  - first:
+      213: -991989265298597943
+    second: Garbage_Monster_Boss_7
+  - first:
+      213: -7788227949727873053
+    second: Garbage_Monster_Boss_8
+  - first:
+      213: -5367168659037108355
+    second: Garbage_Monster_Boss_9
+  - first:
+      213: -7267932044501742050
+    second: Garbage_Monster_Boss_10
+  - first:
+      213: 3101195253534011007
+    second: Garbage_Monster_Boss_11
+  - first:
+      213: -20500143346748982
+    second: Garbage_Monster_Boss_12
+  - first:
+      213: 5213763870747621345
+    second: Garbage_Monster_Boss_13
+  - first:
+      213: 1916650492247949921
+    second: Garbage_Monster_Boss_14
+  - first:
+      213: -2336539521791100636
+    second: Garbage_Monster_Boss_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1554
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2be1f1cebd81c00800000000000000
+      internalID: 871688335077061357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1575
+        width: 477
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0908bb6b55980e3d0800000000000000
+      internalID: -3179390335692603248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_2
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1575
+        width: 476
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70f667d2dacf3b70800000000000000
+      internalID: 8881039997103698043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_3
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1544
+        width: 476
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8c880cb02bce700800000000000000
+      internalID: 571027016313784545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1042
+        width: 465
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fd32551b23dfbc0800000000000000
+      internalID: -3747783577683370206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1052
+        width: 466
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b2459052b683460800000000000000
+      internalID: 7221639809303063342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_6
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1053
+        width: 466
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108096d54f35079c0800000000000000
+      internalID: -3931550165690152959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_7
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 1053
+        width: 466
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c750ecd40fbb32f0800000000000000
+      internalID: -991989265298597943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 530
+        width: 413
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e783ba81f7aae390800000000000000
+      internalID: -7788227949727873053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_9
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 530
+        width: 465
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77cb748a8cf385b0800000000000000
+      internalID: -5367168659037108355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 551
+        width: 403
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e8bcb005e132b90800000000000000
+      internalID: -7267932044501742050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 531
+        width: 414
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ea50af6a8a90b20800000000000000
+      internalID: 3101195253534011007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 28
+        width: 454
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1f8fd6a3b27bff0800000000000000
+      internalID: -20500143346748982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 18
+        width: 434
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e77da2ed920b5840800000000000000
+      internalID: 5213763870747621345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_14
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 18
+        width: 434
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1624405c77f499a10800000000000000
+      internalID: 1916650492247949921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garbage_Monster_Boss_15
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 18
+        width: 414
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429faf73fa1f29fd0800000000000000
+      internalID: -2336539521791100636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
