@@ -7,11 +7,12 @@ using System.Linq;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] private Sound[] sounds;
-
     [SerializeField] private string[] overworldScenes;
     [SerializeField] private string[] dungeonScenes;
 
     public static AudioManager instance;
+
+    private AudioSource sfxSource;
 
     private List<string> overworldPlaylist = new List<string>
     {
@@ -45,6 +46,8 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+        sfxSource = gameObject.AddComponent<AudioSource>();
 
         foreach (Sound sound in sounds)
         {
@@ -169,6 +172,24 @@ public class AudioManager : MonoBehaviour
         sound.source.Play();
     }
 
+    public void PlaySFX(string name)
+    {
+        Sound sound = Array.Find(sounds, s => s.name == name);
+        if (sound == null)
+        {
+            Debug.LogWarning($"Sound: {name} not found!");
+            return;
+        }
+
+        if (sound.clip == null)
+        {
+            Debug.LogWarning($"Clip for sound {name} is null!");
+            return;
+        }
+
+        sfxSource.PlayOneShot(sound.clip, sound.volume);
+    }
+
     public void Stop(string name)
     {
         Sound sound = Array.Find(sounds, s => s.name == name);
@@ -188,7 +209,7 @@ public class AudioManager : MonoBehaviour
     {
         foreach (Sound sound in sounds)
         {
-            if (sound.source != null && sound.source.isPlaying)
+            if (sound.isMusic && sound.source != null && sound.source.isPlaying)
             {
                 sound.source.Stop();
             }
