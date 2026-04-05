@@ -22,6 +22,16 @@ public class TrashProgressManager : MonoBehaviour
     [SerializeField] private Color unhealthyColor = Color.red;
     [SerializeField] private Color healthyColor = Color.white;
 
+    [Header("Progress Thresholds")]
+    [SerializeField] [Range(0f, 1f)] private float level2Threshold = 0.20f;
+    [SerializeField] [Range(0f, 1f)] private float level3Threshold = 0.45f;
+    [SerializeField] [Range(0f, 1f)] private float level4Threshold = 0.70f;
+    [SerializeField] [Range(0f, 1f)] private float level5Threshold = 0.95f;
+
+    [Header("Color Progress")]
+    [SerializeField] private float colorCurvePower = 2f;
+
+    private HashSet<string> registeredTrashIDs = new HashSet<string>();
     private HashSet<string> collectedTrashIDs = new HashSet<string>();
 
     public int TotalTrashCount => totalTrashCount;
@@ -40,9 +50,13 @@ public class TrashProgressManager : MonoBehaviour
         }
     }
 
-    public void RegisterTotalTrash(int total)
+    public void RegisterTrash(string trashID)
     {
-        totalTrashCount = total;
+        if (string.IsNullOrEmpty(trashID)) return;
+        if (registeredTrashIDs.Contains(trashID)) return;
+
+        registeredTrashIDs.Add(trashID);
+        totalTrashCount = registeredTrashIDs.Count;
         UpdateWorldColor();
     }
 
@@ -52,7 +66,7 @@ public class TrashProgressManager : MonoBehaviour
         if (collectedTrashIDs.Contains(trashID)) return;
 
         collectedTrashIDs.Add(trashID);
-        collectedTrashCount++;
+        collectedTrashCount = collectedTrashIDs.Count;
         UpdateWorldColor();
     }
 
@@ -71,10 +85,10 @@ public class TrashProgressManager : MonoBehaviour
     {
         float ratio = GetCleanupRatio();
 
-        if (ratio <= 0.10f) return 1;
-        if (ratio <= 0.30f) return 2;
-        if (ratio <= 0.50f) return 3;
-        if (ratio <= 0.80f) return 4;
+        if (ratio < level2Threshold) return 1;
+        if (ratio < level3Threshold) return 2;
+        if (ratio < level4Threshold) return 3;
+        if (ratio < level5Threshold) return 4;
         return 5;
     }
 
@@ -104,6 +118,7 @@ public class TrashProgressManager : MonoBehaviour
         if (worldUIImage == null) return;
 
         float ratio = GetCleanupRatio();
-        worldUIImage.color = Color.Lerp(unhealthyColor, healthyColor, ratio);
+        float adjustedRatio = Mathf.Pow(ratio, colorCurvePower);
+        worldUIImage.color = Color.Lerp(unhealthyColor, healthyColor, adjustedRatio);
     }
 }
