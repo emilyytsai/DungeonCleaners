@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 213811786395636881}
   - component: {fileID: 1726304296872582906}
   - component: {fileID: 3134217385806884921}
+  - component: {fileID: 5803030477585820682}
   m_Layer: 5
   m_Name: World Progress
   m_TagString: Untagged
@@ -89,6 +90,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   worldUIImage: {fileID: 1726304296872582906}
+--- !u!95 &5803030477585820682
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4710940327628571378}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f10799abfca86b4ca9f12861f5b1fb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8107590065907609453
 GameObject:
   m_ObjectHideFlags: 0

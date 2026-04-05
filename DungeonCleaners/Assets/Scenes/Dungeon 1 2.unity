@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 55295308}
   - component: {fileID: 55295307}
   - component: {fileID: 55295309}
+  - component: {fileID: 55295310}
   m_Layer: 8
   m_Name: explodeblood16_0
   m_TagString: softTrash
@@ -391,6 +392,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_-4.44_-9.24
+--- !u!114 &55295310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55295306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_explodeblood16_0_-4.44_-9.24
 --- !u!1 &61806151
 GameObject:
   m_ObjectHideFlags: 0
@@ -5320,6 +5334,7 @@ GameObject:
   - component: {fileID: 139412483}
   - component: {fileID: 139412485}
   - component: {fileID: 139412486}
+  - component: {fileID: 139412487}
   m_Layer: 8
   m_Name: Flesh1_0
   m_TagString: solidTrash
@@ -5471,6 +5486,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_4.40_-11.89
+--- !u!114 &139412487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139412482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Flesh1_0_4.40_-11.89
 --- !u!1 &210968092
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,6 +5511,7 @@ GameObject:
   - component: {fileID: 210968093}
   - component: {fileID: 210968095}
   - component: {fileID: 210968096}
+  - component: {fileID: 210968097}
   m_Layer: 0
   m_Name: Chests_3
   m_TagString: Untagged
@@ -5619,6 +5648,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_0.01_-6.85
+--- !u!114 &210968097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210968092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Chests_3_0.01_-6.85
 --- !u!1 &218307154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5882,6 +5924,7 @@ GameObject:
   - component: {fileID: 262737995}
   - component: {fileID: 262737994}
   - component: {fileID: 262737996}
+  - component: {fileID: 262737997}
   m_Layer: 8
   m_Name: explodeblood18_5
   m_TagString: softTrash
@@ -5973,6 +6016,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_3.92_1.72
+--- !u!114 &262737997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262737993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_explodeblood18_5_3.92_1.72
 --- !u!1 &264634119
 GameObject:
   m_ObjectHideFlags: 0
@@ -5984,6 +6040,7 @@ GameObject:
   - component: {fileID: 264634120}
   - component: {fileID: 264634122}
   - component: {fileID: 264634121}
+  - component: {fileID: 264634123}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -11422,6 +11479,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &264634123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264634119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Floor_0.00_0.00
 --- !u!1 &300573429
 GameObject:
   m_ObjectHideFlags: 0
@@ -11465,6 +11535,7 @@ GameObject:
   - component: {fileID: 344959769}
   - component: {fileID: 344959768}
   - component: {fileID: 344959770}
+  - component: {fileID: 344959771}
   m_Layer: 0
   m_Name: Props_1 (1)
   m_TagString: Untagged
@@ -11555,6 +11626,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_1.67_2.20
+--- !u!114 &344959771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344959767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Props_1 (1)_1.67_2.20
 --- !u!1001 &440858041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11775,6 +11859,7 @@ GameObject:
   - component: {fileID: 703557843}
   - component: {fileID: 703557845}
   - component: {fileID: 703557846}
+  - component: {fileID: 703557847}
   m_Layer: 8
   m_Name: Props_4
   m_TagString: solidTrash
@@ -11924,6 +12009,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_3.29_-2.58
+--- !u!114 &703557847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703557842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Props_4_3.29_-2.58
 --- !u!1 &927889298
 GameObject:
   m_ObjectHideFlags: 0
@@ -12093,6 +12191,7 @@ GameObject:
   - component: {fileID: 996588106}
   - component: {fileID: 996588108}
   - component: {fileID: 996588109}
+  - component: {fileID: 996588110}
   m_Layer: 8
   m_Name: alcohol 3_0
   m_TagString: solidTrash
@@ -12220,6 +12319,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_10.75_-2.39
+--- !u!114 &996588110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996588105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_alcohol 3_0_10.75_-2.39
 --- !u!1 &997065774
 GameObject:
   m_ObjectHideFlags: 0
@@ -12231,6 +12343,7 @@ GameObject:
   - component: {fileID: 997065776}
   - component: {fileID: 997065775}
   - component: {fileID: 997065777}
+  - component: {fileID: 997065778}
   m_Layer: 0
   m_Name: Props_1
   m_TagString: Untagged
@@ -12321,6 +12434,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_-1.66_2.14
+--- !u!114 &997065778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997065774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Props_1_-1.66_2.14
 --- !u!1 &1003217578
 GameObject:
   m_ObjectHideFlags: 0
@@ -17297,6 +17423,7 @@ GameObject:
   - component: {fileID: 1079094493}
   - component: {fileID: 1079094495}
   - component: {fileID: 1079094496}
+  - component: {fileID: 1079094497}
   m_Layer: 8
   m_Name: AnimatedProps_16
   m_TagString: softTrash
@@ -17442,6 +17569,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_11.04_-7.68
+--- !u!114 &1079094497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079094492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_AnimatedProps_16_11.04_-7.68
 --- !u!1 &1099898949
 GameObject:
   m_ObjectHideFlags: 0
@@ -17454,6 +17594,7 @@ GameObject:
   - component: {fileID: 1099898952}
   - component: {fileID: 1099898951}
   - component: {fileID: 1099898953}
+  - component: {fileID: 1099898954}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -19892,6 +20033,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &1099898954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099898949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Wall_0.00_0.00
 --- !u!4 &1100046406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 226109672664837944, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
@@ -19909,6 +20063,7 @@ GameObject:
   - component: {fileID: 1144247824}
   - component: {fileID: 1144247823}
   - component: {fileID: 1144247825}
+  - component: {fileID: 1144247826}
   m_Layer: 0
   m_Name: Pillars Top
   m_TagString: Untagged
@@ -20907,6 +21062,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &1144247826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144247821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Pillars Top_0.00_0.00
 --- !u!1 &1254292479
 GameObject:
   m_ObjectHideFlags: 0
@@ -21003,6 +21171,7 @@ GameObject:
   - component: {fileID: 1273802161}
   - component: {fileID: 1273802163}
   - component: {fileID: 1273802164}
+  - component: {fileID: 1273802165}
   m_Layer: 8
   m_Name: Props_6
   m_TagString: solidTrash
@@ -21153,6 +21322,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_-11.04_-7.79
+--- !u!114 &1273802165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273802160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Props_6_-11.04_-7.79
 --- !u!1 &1303787412
 GameObject:
   m_ObjectHideFlags: 0
@@ -25997,6 +26179,7 @@ GameObject:
   - component: {fileID: 1328901840}
   - component: {fileID: 1328901842}
   - component: {fileID: 1328901841}
+  - component: {fileID: 1328901843}
   m_Layer: 0
   m_Name: Entrance
   m_TagString: Untagged
@@ -26277,6 +26460,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1328901843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328901839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Entrance_0.00_0.00
 --- !u!1 &1330157234
 GameObject:
   m_ObjectHideFlags: 0
@@ -26289,6 +26485,7 @@ GameObject:
   - component: {fileID: 1330157237}
   - component: {fileID: 1330157236}
   - component: {fileID: 1330157238}
+  - component: {fileID: 1330157239}
   m_Layer: 0
   m_Name: Pillars Base
   m_TagString: Untagged
@@ -27305,6 +27502,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &1330157239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330157234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Pillars Base_0.00_0.00
 --- !u!1 &1333353269
 GameObject:
   m_ObjectHideFlags: 0
@@ -27412,6 +27622,7 @@ GameObject:
   - component: {fileID: 1367032176}
   - component: {fileID: 1367032178}
   - component: {fileID: 1367032179}
+  - component: {fileID: 1367032180}
   m_Layer: 8
   m_Name: alcohol 1_0
   m_TagString: solidTrash
@@ -27540,6 +27751,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_11.03_-2.58
+--- !u!114 &1367032180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367032175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_alcohol 1_0_11.03_-2.58
 --- !u!1 &1430077298
 GameObject:
   m_ObjectHideFlags: 0
@@ -27635,6 +27859,7 @@ GameObject:
   - component: {fileID: 1467708070}
   - component: {fileID: 1467708069}
   - component: {fileID: 1467708071}
+  - component: {fileID: 1467708072}
   m_Layer: 8
   m_Name: Death_Symbol_0
   m_TagString: softTrash
@@ -27726,6 +27951,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_-9.65_-3.91
+--- !u!114 &1467708072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467708068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Death_Symbol_0_-9.65_-3.91
 --- !u!1 &1494426990
 GameObject:
   m_ObjectHideFlags: 0
@@ -77456,6 +77694,7 @@ GameObject:
   - component: {fileID: 1646646656}
   - component: {fileID: 1646646658}
   - component: {fileID: 1646646659}
+  - component: {fileID: 1646646660}
   m_Layer: 8
   m_Name: AnimatedProps_13
   m_TagString: solidTrash
@@ -77583,6 +77822,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_-5.53_-4.56
+--- !u!114 &1646646660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646646655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_AnimatedProps_13_-5.53_-4.56
 --- !u!1 &1651203765
 GameObject:
   m_ObjectHideFlags: 0
@@ -77594,6 +77846,7 @@ GameObject:
   - component: {fileID: 1651203767}
   - component: {fileID: 1651203766}
   - component: {fileID: 1651203768}
+  - component: {fileID: 1651203769}
   m_Layer: 8
   m_Name: Props_9
   m_TagString: softTrash
@@ -77685,6 +77938,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_14.42_0.60
+--- !u!114 &1651203769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651203765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_Props_9_14.42_0.60
 --- !u!1 &1754533756
 GameObject:
   m_ObjectHideFlags: 0
@@ -77696,6 +77962,7 @@ GameObject:
   - component: {fileID: 1754533758}
   - component: {fileID: 1754533757}
   - component: {fileID: 1754533759}
+  - component: {fileID: 1754533760}
   m_Layer: 8
   m_Name: explodeblood18_13
   m_TagString: softTrash
@@ -77787,6 +78054,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_5.02_-12.28
+--- !u!114 &1754533760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754533756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_explodeblood18_13_5.02_-12.28
 --- !u!1 &1776104471
 GameObject:
   m_ObjectHideFlags: 0
@@ -77799,6 +78079,7 @@ GameObject:
   - component: {fileID: 1776104472}
   - component: {fileID: 1776104474}
   - component: {fileID: 1776104475}
+  - component: {fileID: 1776104476}
   m_Layer: 8
   m_Name: alcohol 2_0
   m_TagString: solidTrash
@@ -77926,6 +78207,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_10.91_-2.36
+--- !u!114 &1776104476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776104471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_alcohol 2_0_10.91_-2.36
 --- !u!1 &1776292884
 GameObject:
   m_ObjectHideFlags: 0
@@ -82944,6 +83238,7 @@ GameObject:
   - component: {fileID: 1981599515}
   - component: {fileID: 1981599517}
   - component: {fileID: 1981599518}
+  - component: {fileID: 1981599519}
   m_Layer: 8
   m_Name: alcohol 4_0
   m_TagString: solidTrash
@@ -83071,6 +83366,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trashID: Dungeon 1 2_10.84_-2.10
+--- !u!114 &1981599519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981599514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab506931cbc1b674fb0c1d3b72be7b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashID: Dungeon 1 2_alcohol 4_0_10.84_-2.10
 --- !u!1 &1983417573
 GameObject:
   m_ObjectHideFlags: 0
