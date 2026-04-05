@@ -28431,7 +28431,7 @@ GameObject:
   - component: {fileID: 1091618064}
   - component: {fileID: 1091618063}
   - component: {fileID: 1091618065}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Garbage Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28607,6 +28607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  damageCooldown: 0.4
 --- !u!1 &1091654352
 GameObject:
   m_ObjectHideFlags: 0
