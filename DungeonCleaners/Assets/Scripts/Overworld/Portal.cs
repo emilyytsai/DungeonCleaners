@@ -16,7 +16,7 @@ public class Portal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             hasTriggered = true;
-            StartCoroutine(LoadSceneAfterDelay(0.5f));
+            SceneManager.LoadScene(targetSceneName);
         }
     }
 
