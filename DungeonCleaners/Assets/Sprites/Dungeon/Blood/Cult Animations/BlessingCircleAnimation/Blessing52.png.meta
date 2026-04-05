@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blessing52_0: -5365454268832324107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

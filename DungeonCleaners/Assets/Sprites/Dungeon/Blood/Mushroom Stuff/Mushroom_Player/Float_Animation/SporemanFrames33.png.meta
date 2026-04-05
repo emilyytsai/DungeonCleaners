@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SporemanFrames33_0: 964784491706447261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

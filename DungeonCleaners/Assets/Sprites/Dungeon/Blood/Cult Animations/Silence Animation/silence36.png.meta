@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      silence36_0: 2429157891467315445
+      silence36_1: -2859965862218073800
+      silence36_10: 3125555777706054829
+      silence36_11: -1057199392665359172
+      silence36_12: -6774069578512788362
+      silence36_13: 7388854576659389788
+      silence36_14: -1872449144890902883
+      silence36_15: 5437855036060744643
+      silence36_16: 8847747565876010288
+      silence36_2: -8104534879720559877
+      silence36_3: -4336229702165525860
+      silence36_4: -4063544559927878510
+      silence36_5: -7704887096828806039
+      silence36_6: 2944940047991851751
+      silence36_7: -5050226134218242668
+      silence36_8: -895416117666095438
+      silence36_9: -8931488778481115798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

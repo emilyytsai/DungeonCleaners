@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crimson_Tree1_0: -6043649004179912854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
