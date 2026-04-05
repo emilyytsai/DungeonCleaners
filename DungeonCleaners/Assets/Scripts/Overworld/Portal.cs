@@ -6,10 +6,12 @@ public class Portal : MonoBehaviour
     [SerializeField] private string targetSceneName;
     [SerializeField] private Vector2 spawnPosition;
     [SerializeField] private Vector2 spawnFacingDirection;
+    [SerializeField] private string spawnSoundName;
 
     private static Vector2 pendingPos;
     private static Vector2 pendingFacing;
     private static bool shouldMovePlayer = false;
+    private static string pendingSpawnSoundName;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,6 +19,7 @@ public class Portal : MonoBehaviour
         {
             pendingPos = spawnPosition;
             pendingFacing = spawnFacingDirection;
+            pendingSpawnSoundName = spawnSoundName;
             shouldMovePlayer = true;
 
             SceneManager.sceneLoaded += OnSceneLoaded;
@@ -45,8 +48,14 @@ public class Portal : MonoBehaviour
                     moveScript.SyncFacingDirection(pendingFacing);
                     moveScript.FreezeInput(0.2f);
                 }
+
+                if (!string.IsNullOrEmpty(pendingSpawnSoundName) && AudioManager.instance != null)
+                {
+                    AudioManager.instance.Play(pendingSpawnSoundName);
+                }
             }
             shouldMovePlayer = false;
+            pendingSpawnSoundName = null;
         }
 
         SceneManager.sceneLoaded -= OnSceneLoaded;

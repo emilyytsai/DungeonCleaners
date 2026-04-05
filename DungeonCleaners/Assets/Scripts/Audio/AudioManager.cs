@@ -2,10 +2,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] private Sound[] sounds;
+
+    [SerializeField] private string[] overworldScenes;
+    [SerializeField] private string[] dungeonScenes;
+
     public static AudioManager instance;
 
     private List<string> overworldPlaylist = new List<string>
@@ -77,7 +82,7 @@ public class AudioManager : MonoBehaviour
     {
         Debug.Log("Scene loaded: " + scene.name);
 
-        if (scene.name == "Overworld & House")
+        if (overworldScenes.Contains(scene.name))
         {
             if (currentCategory != "Overworld")
             {
@@ -86,7 +91,7 @@ public class AudioManager : MonoBehaviour
                 PlayNextFromCategory(overworldPlaylist, overworldQueue, "Overworld");
             }
         }
-        else if (scene.name == "Dungeon Boss Room" || scene.name == "level1" || scene.name == "level1 2")
+        else if (dungeonScenes.Contains(scene.name))
         {
             if (currentCategory != "Dungeon")
             {

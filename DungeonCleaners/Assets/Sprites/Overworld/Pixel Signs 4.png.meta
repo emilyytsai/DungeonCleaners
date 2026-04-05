@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e30f3dbf07998654b9d8bd4cb2effe67
+guid: 3e1424d6c7f156b47839ccdb0c40f88e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8409738460227957843
-    second: Pixel Signs 2_0
+      213: -198507929567634226
+    second: Pixel Signs 4_0
   - first:
-      213: -1119073236421500211
-    second: Pixel Signs 2_1
+      213: -8615123909894940736
+    second: Pixel Signs 4_1
   - first:
-      213: -7353672403710306375
-    second: Pixel Signs 2_2
+      213: -3714692923989432781
+    second: Pixel Signs 4_2
   - first:
-      213: -1481604885375587510
-    second: Pixel Signs 2_3
+      213: -3326933977768684377
+    second: Pixel Signs 4_3
   - first:
-      213: -4082915901606519572
-    second: Pixel Signs 2_4
+      213: 5030150517195821835
+    second: Pixel Signs 4_4
   - first:
-      213: 4034594772457326427
-    second: Pixel Signs 2_5
+      213: -5402061390928578890
+    second: Pixel Signs 4_5
   - first:
-      213: 7183864222740759723
-    second: Pixel Signs 2_6
+      213: -137535215942148558
+    second: Pixel Signs 4_6
   - first:
-      213: -6302435022255463777
-    second: Pixel Signs 2_7
+      213: -1450827800235206471
+    second: Pixel Signs 4_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pixel Signs 2_0
+      name: Pixel Signs 4_0
       rect:
         serializedVersion: 2
         x: 7
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dab0c285d6b9a4b80800000000000000
-      internalID: -8409738460227957843
+      spriteID: eccd50df612ce3df0800000000000000
+      internalID: -198507929567634226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_1
+      name: Pixel Signs 4_1
       rect:
         serializedVersion: 2
         x: 127
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc2237112d04870f0800000000000000
-      internalID: -1119073236421500211
+      spriteID: 0c7dcb6e27ee07880800000000000000
+      internalID: -8615123909894940736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_2
+      name: Pixel Signs 4_2
       rect:
         serializedVersion: 2
         x: 247
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b7114609e182f990800000000000000
-      internalID: -7353672403710306375
+      spriteID: 336e3f78772c27cc0800000000000000
+      internalID: -3714692923989432781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_3
+      name: Pixel Signs 4_3
       rect:
         serializedVersion: 2
         x: 367
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b64b5e438407be0800000000000000
-      internalID: -1481604885375587510
+      spriteID: 7a49bef8c2b54d1d0800000000000000
+      internalID: -3326933977768684377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_4
+      name: Pixel Signs 4_4
       rect:
         serializedVersion: 2
         x: 487
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cec13f4ae919657c0800000000000000
-      internalID: -4082915901606519572
+      spriteID: b0354389e3faec540800000000000000
+      internalID: 5030150517195821835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_5
+      name: Pixel Signs 4_5
       rect:
         serializedVersion: 2
         x: 606
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5787f0c192cdf730800000000000000
-      internalID: 4034594772457326427
+      spriteID: 6b679da49c50805b0800000000000000
+      internalID: -5402061390928578890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_6
+      name: Pixel Signs 4_6
       rect:
         serializedVersion: 2
         x: 726
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba4c917e27632b360800000000000000
-      internalID: 7183864222740759723
+      spriteID: 23e59a52370671ef0800000000000000
+      internalID: -137535215942148558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pixel Signs 2_7
+      name: Pixel Signs 4_7
       rect:
         serializedVersion: 2
         x: 846
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f926b7e2db04988a0800000000000000
-      internalID: -6302435022255463777
+      spriteID: 9b818b07dcf9ddbe0800000000000000
+      internalID: -1450827800235206471
       vertices: []
       indices: 
       edges: []
@@ -309,15 +309,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Pixel Signs 2_0: -8409738460227957843
-      Pixel Signs 2_1: -1119073236421500211
-      Pixel Signs 2_2: -7353672403710306375
-      Pixel Signs 2_3: -1481604885375587510
-      Pixel Signs 2_4: -4082915901606519572
-      Pixel Signs 2_5: 4034594772457326427
-      Pixel Signs 2_6: 7183864222740759723
-      Pixel Signs 2_7: -6302435022255463777
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
