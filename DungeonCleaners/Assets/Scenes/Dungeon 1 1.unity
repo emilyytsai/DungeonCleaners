@@ -5463,9 +5463,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab24615ad658b2340acfdd87528e08ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: Overworld & House
+  targetSceneName: Overworld Normal
   spawnPosition: {x: 2.8, y: 0.35}
   spawnFacingDirection: {x: 0, y: -1}
+  spawnSoundName: Portal Open
 --- !u!61 &1221501005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5646,9 +5647,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab24615ad658b2340acfdd87528e08ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: level1
+  targetSceneName: Dungeon 1 2
   spawnPosition: {x: 0, y: 0.55}
   spawnFacingDirection: {x: 0, y: -1}
+  spawnSoundName: Portal Open
 --- !u!61 &1285211981
 BoxCollider2D:
   m_ObjectHideFlags: 0
