@@ -7,7 +7,7 @@ public class PlayerAttack : MonoBehaviour
     public InputActionReference attackAction;
 
     [Header("Settings")]
-    public float attackRange = 1.5f;
+    public float attackRange = 1.50f;
     public int damageAmount = 10;
     public float attackCooldown = 0.5f;
     public LayerMask enemyLayer;
