@@ -28,45 +28,49 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (playerTransform == null || isStunned) return;
+        if (playerTransform == null || isStunned)
+        {
+            anim.SetFloat("Speed", 0f);
+            return;
+        }
 
         MoveTowardsPlayer();
     }
 
     private void MoveTowardsPlayer()
     {
-        // Calculate 2D distance
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         if (distance > stopDistance)
         {
-            // Get direction on X and Y axes
             Vector2 direction = (playerTransform.position - transform.position).normalized;
 
-            // Move the transform
             transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
 
-            // Flip the sprite based on direction
+            // Updated flip logic for left-facing sprites
             FlipSprite(direction.x);
             
-            anim.SetBool("IsMoving", true);
+            anim.SetFloat("LookX", direction.x);
+            anim.SetFloat("LookY", direction.y);
+            anim.SetFloat("Speed", 1f); 
         }
         else
         {
-            anim.SetBool("IsMoving", false);
+            anim.SetFloat("Speed", 0f);
         }
     }
 
     private void FlipSprite(float xDirection)
     {
-        // If moving right (pos x) and scale is negative, or moving left (neg x) and scale is positive
-        if (xDirection > 0 && transform.localScale.x < 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-        else if (xDirection < 0 && transform.localScale.x > 0)
+        // INVERTED LOGIC: 
+        // If moving right, use negative scale. If moving left, use positive scale.
+        if (xDirection > 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (xDirection < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
@@ -81,7 +85,6 @@ public class EnemyAI : MonoBehaviour
     private System.Collections.IEnumerator HitStunRoutine()
     {
         isStunned = true;
-        // Optional: Zero out velocity if using non-kinematic Rigidbody2D
         if (rb != null) rb.linearVelocity = Vector2.zero; 
         
         yield return new WaitForSeconds(hitStunDuration);
