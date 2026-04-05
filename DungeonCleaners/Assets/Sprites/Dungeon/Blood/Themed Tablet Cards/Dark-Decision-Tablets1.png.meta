@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark-Decision-Tablets1_0: -2949425810341164300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

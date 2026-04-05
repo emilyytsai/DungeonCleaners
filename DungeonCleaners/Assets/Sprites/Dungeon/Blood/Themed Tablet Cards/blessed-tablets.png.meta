@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blessed-tablets_0: -8589076592323251150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

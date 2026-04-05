@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wrath._0: 2401318298809028037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

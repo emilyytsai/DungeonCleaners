@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hopeDecision-Tablets1_0: -1141442033377925095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goldpot(1)7_0: 1076713518928654314
+      goldpot(1)7_1: 2072874603347198611
+      goldpot(1)7_10: 233050881704114246
+      goldpot(1)7_11: -3859445140450155270
+      goldpot(1)7_12: 7819502015134400153
+      goldpot(1)7_2: 6589921472430812417
+      goldpot(1)7_3: -2912248996859474688
+      goldpot(1)7_4: -6512473774829205870
+      goldpot(1)7_5: 407200169698594516
+      goldpot(1)7_6: 7909628332420992
+      goldpot(1)7_7: 5855329371836605876
+      goldpot(1)7_8: -8426392725509038212
+      goldpot(1)7_9: -4799318778279686715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
