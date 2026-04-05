@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 36940233}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.23, z: -10.33497}
+  m_LocalPosition: {x: -0.02, y: -0.11, z: -10.33497}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -299,9 +299,9 @@ GameObject:
   m_Component:
   - component: {fileID: 55295308}
   - component: {fileID: 55295307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: explodeblood16_0
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,9 +387,9 @@ GameObject:
   - component: {fileID: 139412484}
   - component: {fileID: 139412483}
   - component: {fileID: 139412485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flesh1_0
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -667,9 +667,9 @@ GameObject:
   m_Component:
   - component: {fileID: 262737995}
   - component: {fileID: 262737994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: explodeblood18_5
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6280,7 +6280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 226109672664837944, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 226109672664837944, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6322,10 +6322,17 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7010882783502733220, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 590638227107705, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1970985895}
   m_SourcePrefab: {fileID: 100100000, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
 --- !u!1 &703557842
 GameObject:
@@ -6338,9 +6345,9 @@ GameObject:
   - component: {fileID: 703557844}
   - component: {fileID: 703557843}
   - component: {fileID: 703557845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_4
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6591,7 +6598,7 @@ Transform:
   m_GameObject: {fileID: 927889298}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.23, z: -10.33497}
+  m_LocalPosition: {x: -0.02, y: -0.11, z: -10.33497}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6608,9 +6615,9 @@ GameObject:
   - component: {fileID: 996588107}
   - component: {fileID: 996588106}
   - component: {fileID: 996588108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alcohol 3_0
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6887,9 +6894,9 @@ GameObject:
   - component: {fileID: 1079094494}
   - component: {fileID: 1079094493}
   - component: {fileID: 1079094495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AnimatedProps_16
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10454,9 +10461,9 @@ GameObject:
   - component: {fileID: 1273802162}
   - component: {fileID: 1273802161}
   - component: {fileID: 1273802163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_6
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11901,9 +11908,9 @@ GameObject:
   - component: {fileID: 1367032177}
   - component: {fileID: 1367032176}
   - component: {fileID: 1367032178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alcohol 1_0
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12025,9 +12032,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1467708070}
   - component: {fileID: 1467708069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Death_Symbol_0
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61770,9 +61777,9 @@ GameObject:
   - component: {fileID: 1646646657}
   - component: {fileID: 1646646656}
   - component: {fileID: 1646646658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AnimatedProps_13
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61893,9 +61900,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1651203767}
   - component: {fileID: 1651203766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Props_9
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61980,9 +61987,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1754533758}
   - component: {fileID: 1754533757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: explodeblood18_13
-  m_TagString: Untagged
+  m_TagString: softTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62068,9 +62075,9 @@ GameObject:
   - component: {fileID: 1776104473}
   - component: {fileID: 1776104472}
   - component: {fileID: 1776104474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alcohol 2_0
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62182,6 +62189,28 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.25, y: 0.875}
   m_Direction: 0
+--- !u!1 &1970985890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 590638227107705, guid: 5d7dde9811aa21a48a906e39232550d7, type: 3}
+  m_PrefabInstance: {fileID: 440858041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1970985895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970985890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7b9892d0387164f83eef4e21328b13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cleanRange: 1.5
+  cleanKey: 101
+  trashTags:
+  - softTrash
+  - solidTrash
 --- !u!1 &1981599514
 GameObject:
   m_ObjectHideFlags: 0
@@ -62193,9 +62222,9 @@ GameObject:
   - component: {fileID: 1981599516}
   - component: {fileID: 1981599515}
   - component: {fileID: 1981599517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: alcohol 4_0
-  m_TagString: Untagged
+  m_TagString: solidTrash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
