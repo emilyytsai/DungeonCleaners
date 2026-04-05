@@ -61,6 +61,12 @@ public class Clean : MonoBehaviour
             }
         }
 
+        TrashObject trashObject = trash.GetComponent<TrashObject>();
+        if (trashObject != null && TrashProgressManager.instance != null)
+        {
+            TrashProgressManager.instance.CollectTrash(trashObject.TrashID);
+        }
+
         Destroy(trash);
 
         // Logic for healing the land goes here!
