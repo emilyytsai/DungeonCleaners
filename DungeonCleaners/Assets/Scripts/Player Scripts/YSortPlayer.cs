@@ -24,6 +24,6 @@ public class YSortPlayer : MonoBehaviour
 
     private void LateUpdate()
     {
-        sr.sortingOrder = Mathf.RoundToInt(-sortPoint.position.y * precision) + offset;
+        sr.sortingOrder = Mathf.RoundToInt(-sortPoint.position.y * 100f) + 1000;
     }
 }
