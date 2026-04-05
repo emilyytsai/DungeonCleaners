@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Input Settings")]
     [Tooltip("Drag your Move InputAction here from the Input Action Asset")]
-    public InputActionReference moveAction; 
+    public InputActionReference moveAction;
 
     private Animator animator;
     private Rigidbody2D rb;
@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 movementInput;
     private Vector2 lastLookDirection = new Vector2(0, -1); // Default facing down
+
+    private float freezeTimer = 0f;
+    private bool isFrozen => freezeTimer > 0;
 
     // Hash parameters for performance
     private readonly int animLookX = Animator.StringToHash("LookX");
@@ -29,6 +32,21 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    public void FreezeInput(float duration)
+    {
+        freezeTimer = duration;
+        movementInput = Vector2.zero;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+    }
+
+    public void SyncFacingDirection(Vector2 newDir)
+    {
+        lastLookDirection = newDir;
+        // Update the animator immediately so there is no 1-frame flicker
+        animator.SetFloat(animLookX, newDir.x);
+        animator.SetFloat(animLookY, newDir.y);
     }
 
     // You MUST enable and disable Input Actions when using references
@@ -46,6 +64,15 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (freezeTimer > 0)
+        {
+            freezeTimer -= Time.deltaTime;
+            movementInput = Vector2.zero; // Force zero while frozen
+
+            // Still update animation so the "Speed" drops to 0 immediately
+            UpdateAnimation();
+            return;
+        }
         // 1. Gather Input using the New System
         if (moveAction != null)
         {
@@ -54,7 +81,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Normalize to prevent faster diagonal movement
-        if (movementInput.sqrMagnitude > 1) 
+        if (movementInput.sqrMagnitude > 1)
             movementInput.Normalize();
 
         UpdateAnimation();
@@ -68,7 +95,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        if (movementInput != Vector2.zero)
+        if (movementInput != Vector2.zero && !isFrozen)
         {
             lastLookDirection = movementInput;
 

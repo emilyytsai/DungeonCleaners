@@ -3,42 +3,52 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
 {
-    [SerializeField]
-    private string targetSceneName;
+    [SerializeField] private string targetSceneName;
+    [SerializeField] private Vector2 spawnPosition;
+    [SerializeField] private Vector2 spawnFacingDirection;
 
-    [SerializeField]
-    private Vector2 spawnPositionInTargetScene;
-
-    private bool hasTriggered = false;
-
-    private static Vector2 pendingSpawnPosition;
-    private static bool shouldSetSpawn = false;
+    private static Vector2 pendingPos;
+    private static Vector2 pendingFacing;
+    private static bool shouldMovePlayer = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (hasTriggered) return;
-        if (!other.CompareTag("Player")) return;
+        if (other.CompareTag("Player"))
+        {
+            pendingPos = spawnPosition;
+            pendingFacing = spawnFacingDirection;
+            shouldMovePlayer = true;
 
-        hasTriggered = true;
-
-        pendingSpawnPosition = spawnPositionInTargetScene;
-        shouldSetSpawn = true;
-
-        SceneManager.sceneLoaded += OnSceneLoaded;
-        SceneManager.LoadScene(targetSceneName);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            SceneManager.LoadScene(targetSceneName);
+        }
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (shouldSetSpawn)
+        if (shouldMovePlayer)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
+
             if (player != null)
             {
-                player.transform.position = pendingSpawnPosition;
+                // 1. Move the player
+                player.transform.position = pendingPos;
+
+                // 2. Force the Animator to use your specific parameters
+                Animator anim = player.GetComponent<Animator>();
+                var moveScript = player.GetComponent<PlayerController>();
+
+                if (moveScript != null)
+                {
+                    // We must set the script's internal variable, not just the Animator!
+                    moveScript.SyncFacingDirection(pendingFacing);
+                    moveScript.FreezeInput(0.2f);
+                }
             }
-            shouldSetSpawn = false;
+            shouldMovePlayer = false;
         }
+
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
