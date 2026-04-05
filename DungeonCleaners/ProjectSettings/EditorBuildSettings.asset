@@ -23,6 +23,36 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon 3 2.unity
     guid: e96d805e64e2c3148bd64e3fc2aa2efd
+  - enabled: 1
+    path: Assets/Scenes/Overworld Bad 1.unity
+    guid: 8671e83e4e3410845b198ff70a9a97f2
+  - enabled: 1
+    path: Assets/Scenes/Overworld Bad 2.unity
+    guid: 2517dd752910aeb4a9fcbb86d902e66d
+  - enabled: 1
+    path: Assets/Scenes/Overworld Good 1.unity
+    guid: 8ae86c2ea67d10145acffbc9e63a287f
+  - enabled: 1
+    path: Assets/Scenes/Overworld Good 2.unity
+    guid: 3e902c250781b4f4baafb932f4c943f6
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 2 1.unity
+    guid: 16b33505467bddc428117a53afcc1689
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 2 2.unity
+    guid: f76fb036076abaf429fbb0cd81e1b421
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 2 4.unity
+    guid: 8734c38f32e3eac4eb0de2295b7b69b2
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 3 1.unity
+    guid: 01f238e59cb19024199dc1f1e5a3e12e
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 3 3.unity
+    guid: abc260983a1b51d459a0655d0c9d05d1
+  - enabled: 1
+    path: Assets/Scenes/Dungeon 3 4.unity
+    guid: a0b025e847ce3f14fb61d36e03062404
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
