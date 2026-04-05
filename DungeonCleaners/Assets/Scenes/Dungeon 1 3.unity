@@ -28430,6 +28430,7 @@ GameObject:
   - component: {fileID: 1091618060}
   - component: {fileID: 1091618064}
   - component: {fileID: 1091618063}
+  - component: {fileID: 1091618065}
   m_Layer: 0
   m_Name: Garbage Boss
   m_TagString: Untagged
@@ -28593,6 +28594,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3.7203028, y: 4.0199995}
   m_Direction: 0
+--- !u!114 &1091618065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091618058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ff066fdf6921940ae29f9ee8260dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &1091654352
 GameObject:
   m_ObjectHideFlags: 0

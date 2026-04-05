@@ -49,6 +49,11 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat(animLookY, newDir.y);
     }
 
+    public Vector2 GetLastLookDirection()
+    {
+        return lastLookDirection;
+    }
+
     // You MUST enable and disable Input Actions when using references
     private void OnEnable()
     {
