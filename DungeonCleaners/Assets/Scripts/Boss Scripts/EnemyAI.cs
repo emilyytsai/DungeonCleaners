@@ -28,19 +28,22 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (playerTransform == null || isStunned) return;
+        if (playerTransform == null || isStunned)
+        {
+            // If stunned or no player, ensure the animator knows we've stopped
+            anim.SetFloat("Speed", 0f);
+            return;
+        }
 
         MoveTowardsPlayer();
     }
 
     private void MoveTowardsPlayer()
     {
-        // Calculate 2D distance
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         if (distance > stopDistance)
         {
-            // Get direction on X and Y axes
             Vector2 direction = (playerTransform.position - transform.position).normalized;
 
             // Move the transform
@@ -49,17 +52,20 @@ public class EnemyAI : MonoBehaviour
             // Flip the sprite based on direction
             FlipSprite(direction.x);
             
-            anim.SetBool("IsMoving", true);
+            // Update Animator Parameters
+            anim.SetFloat("LookX", direction.x);
+            anim.SetFloat("LookY", direction.y);
+            anim.SetFloat("Speed", 1f); // Setting Speed to 1 tells the animator we are moving
         }
         else
         {
-            anim.SetBool("IsMoving", false);
+            // Set speed to 0 to trigger the transition back to Idle
+            anim.SetFloat("Speed", 0f);
         }
     }
 
     private void FlipSprite(float xDirection)
     {
-        // If moving right (pos x) and scale is negative, or moving left (neg x) and scale is positive
         if (xDirection > 0 && transform.localScale.x < 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
@@ -81,7 +87,6 @@ public class EnemyAI : MonoBehaviour
     private System.Collections.IEnumerator HitStunRoutine()
     {
         isStunned = true;
-        // Optional: Zero out velocity if using non-kinematic Rigidbody2D
         if (rb != null) rb.linearVelocity = Vector2.zero; 
         
         yield return new WaitForSeconds(hitStunDuration);
