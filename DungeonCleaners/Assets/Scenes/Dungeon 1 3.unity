@@ -28608,6 +28608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   damageCooldown: 0.4
+  portalPrefab: {fileID: 5016454934817108384, guid: 0d53ca2c06eaee140b6e09dd8c0b3e39, type: 3}
 --- !u!1 &1091654352
 GameObject:
   m_ObjectHideFlags: 0
