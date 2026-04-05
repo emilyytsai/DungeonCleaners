@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 9fe69698f45ba6d499865098a16b43d3
+guid: e8766f4ca5971b549815effdc9fbc3cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3885278797278204714
-    second: Bushe1_0
+      213: 5306358589899434224
+    second: 16x32 trees_0
   - first:
-      213: 8467942844960169732
-    second: Bushe1_1
+      213: 5911358467060122617
+    second: 16x32 trees_1
   - first:
-      213: -4988311467233121452
-    second: Bushe1_2
+      213: -3877823419965856449
+    second: 16x32 trees_2
   - first:
-      213: -2076943503388869069
-    second: Bushe1_3
+      213: -4515817086338626874
+    second: 16x32 trees_3
   - first:
-      213: 2847678715978982054
-    second: Bushe1_4
+      213: 1832962835466411316
+    second: 16x32 trees_4
   - first:
-      213: -7511650321784113099
-    second: Bushe1_5
+      213: -8898560486084846172
+    second: 16x32 trees_5
   - first:
-      213: 5249359379302588804
-    second: Bushe1_6
-  - first:
-      213: -38965159418246943
-    second: Bushe1_7
+      213: 3826410113839921324
+    second: 16x32 trees_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bushe1_0
+      name: 16x32 trees_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 48
-        width: 69
-        height: 48
+        x: 0
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6dc20ead487b41ac0800000000000000
-      internalID: -3885278797278204714
+      spriteID: 0f86cc1f509f3a940800000000000000
+      internalID: 5306358589899434224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_1
+      name: 16x32 trees_1
       rect:
         serializedVersion: 2
-        x: 158
-        y: 48
-        width: 69
-        height: 48
+        x: 16
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40f5924072d248570800000000000000
-      internalID: 8467942844960169732
+      spriteID: 9f3cd11c43d590250800000000000000
+      internalID: 5911358467060122617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_2
+      name: 16x32 trees_2
       rect:
         serializedVersion: 2
-        x: 286
-        y: 48
-        width: 69
-        height: 48
+        x: 32
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45bef865625f5cab0800000000000000
-      internalID: -4988311467233121452
+      spriteID: f35ae3725243f2ac0800000000000000
+      internalID: -3877823419965856449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_3
+      name: 16x32 trees_3
       rect:
         serializedVersion: 2
-        x: 414
-        y: 48
-        width: 69
-        height: 48
+        x: 48
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33e73f543e63d23e0800000000000000
-      internalID: -2076943503388869069
+      spriteID: 6ca852a29489451c0800000000000000
+      internalID: -4515817086338626874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_4
+      name: 16x32 trees_4
       rect:
         serializedVersion: 2
-        x: 542
-        y: 48
-        width: 69
-        height: 48
+        x: 0
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a22e5c54bcf48720800000000000000
-      internalID: 2847678715978982054
+      spriteID: 43dd776ccfdff6910800000000000000
+      internalID: 1832962835466411316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_5
+      name: 16x32 trees_5
       rect:
         serializedVersion: 2
-        x: 670
-        y: 48
-        width: 69
-        height: 48
+        x: 16
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 538fb1da4d141c790800000000000000
-      internalID: -7511650321784113099
+      spriteID: 4add59e6266f18480800000000000000
+      internalID: -8898560486084846172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_6
+      name: 16x32 trees_6
       rect:
         serializedVersion: 2
-        x: 798
-        y: 48
-        width: 69
-        height: 48
+        x: 32
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,30 +265,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48122bd0b8879d840800000000000000
-      internalID: 5249359379302588804
+      spriteID: ca8f360b9b32a1530800000000000000
+      internalID: 3826410113839921324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushe1_7
+      name: 16x32 trees_7
       rect:
         serializedVersion: 2
-        x: 926
-        y: 48
-        width: 69
-        height: 48
+        x: 48
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e8424ad461957ff0800000000000000
-      internalID: -38965159418246943
+      spriteID: afa07726f9b78d1438fdd8f96e8d7b72
+      internalID: 1083280932
       vertices: []
       indices: 
       edges: []
@@ -300,7 +297,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a80f62e33046e9c429ec88289753c7ca
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +307,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bushe1_0: -3885278797278204714
-      Bushe1_1: 8467942844960169732
-      Bushe1_2: -4988311467233121452
-      Bushe1_3: -2076943503388869069
-      Bushe1_4: 2847678715978982054
-      Bushe1_5: -7511650321784113099
-      Bushe1_6: 5249359379302588804
-      Bushe1_7: -38965159418246943
+      16x32 trees_0: 5306358589899434224
+      16x32 trees_1: 5911358467060122617
+      16x32 trees_2: -3877823419965856449
+      16x32 trees_3: -4515817086338626874
+      16x32 trees_4: 1832962835466411316
+      16x32 trees_5: -8898560486084846172
+      16x32 trees_6: 3826410113839921324
+      16x32 trees_7: 1083280932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
