@@ -1,28 +1,44 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class Portal : MonoBehaviour
 {
     [SerializeField]
     private string targetSceneName;
-    
+
+    [SerializeField]
+    private Vector2 spawnPositionInTargetScene;
+
     private bool hasTriggered = false;
+
+    private static Vector2 pendingSpawnPosition;
+    private static bool shouldSetSpawn = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (hasTriggered) return;
+        if (!other.CompareTag("Player")) return;
 
-        if (other.CompareTag("Player"))
-        {
-            hasTriggered = true;
-            SceneManager.LoadScene(targetSceneName);
-        }
+        hasTriggered = true;
+
+        pendingSpawnPosition = spawnPositionInTargetScene;
+        shouldSetSpawn = true;
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.LoadScene(targetSceneName);
     }
 
-    private IEnumerator LoadSceneAfterDelay(float delay)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(targetSceneName);
+        if (shouldSetSpawn)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                player.transform.position = pendingSpawnPosition;
+            }
+            shouldSetSpawn = false;
+        }
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 }
