@@ -3,24 +3,22 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializeField] private float moveSpeed = 3.5f;
-    [SerializeField] private float stopDistance = 1.2f;
+    [SerializeField] private float moveSpeed = 3.0f;
+    [SerializeField] private float stopDistance = 0.5f;
 
     [Header("Combat Settings")]
-    [SerializeField] private float hitStunDuration = 0.5f;
+    [SerializeField] private float hitStunDuration = 0.4f;
 
-    // References
     private Transform playerTransform;
     private Animator anim;
-    private Rigidbody rb;
+    private Rigidbody2D rb;
     private bool isStunned = false;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
 
-        // Find the player by tag at the start
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -30,7 +28,6 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        // Don't move if player is missing or if the enemy is currently stunned (hit)
         if (playerTransform == null || isStunned) return;
 
         MoveTowardsPlayer();
@@ -38,19 +35,19 @@ public class EnemyAI : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
-        float distance = Vector3.Distance(transform.position, playerTransform.position);
+        // Calculate 2D distance
+        float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         if (distance > stopDistance)
         {
-            // Calculate direction
-            Vector3 direction = (playerTransform.position - transform.position).normalized;
-            
-            // Look at player (Y-axis only to prevent tilting)
-            Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
+            // Get direction on X and Y axes
+            Vector2 direction = (playerTransform.position - transform.position).normalized;
 
-            // Move using Translate for simplicity, multiplied by Time.deltaTime for frame-rate independence
-            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            // Move the transform
+            transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
+
+            // Flip the sprite based on direction
+            FlipSprite(direction.x);
             
             anim.SetBool("IsMoving", true);
         }
@@ -60,23 +57,33 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    // Public method to be called by player weapons/projectiles
-    public void TakeDamage(int damageAmount)
+    private void FlipSprite(float xDirection)
     {
-        if (isStunned) return; // Prevent "hit-spamming" during stun if desired
+        // If moving right (pos x) and scale is negative, or moving left (neg x) and scale is positive
+        if (xDirection > 0 && transform.localScale.x < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else if (xDirection < 0 && transform.localScale.x > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+    }
 
-        Debug.Log($"Enemy hit for {damageAmount} damage!");
-
-        // Trigger the animation
+    public void TakeDamage(int damage)
+    {
+        if (isStunned) return;
+        
         anim.SetTrigger("Hit");
-
-        // Start the reaction (pause movement)
         StartCoroutine(HitStunRoutine());
     }
 
     private System.Collections.IEnumerator HitStunRoutine()
     {
         isStunned = true;
+        // Optional: Zero out velocity if using non-kinematic Rigidbody2D
+        if (rb != null) rb.linearVelocity = Vector2.zero; 
+        
         yield return new WaitForSeconds(hitStunDuration);
         isStunned = false;
     }

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 443276039704716454}
   - component: {fileID: 5457797738201895129}
   - component: {fileID: 7010882783502733220}
-  - component: {fileID: 2704634683687779070}
   - component: {fileID: 1201581211872609579}
   - component: {fileID: 1958599120214868712}
   - component: {fileID: 4417112118312304792}
@@ -182,21 +181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
---- !u!114 &2704634683687779070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590638227107705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 619c1427ec5ac6b4db2a1663b0c5ba02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortPoint: {fileID: 8066070095605593070}
-  offset: 0
-  precision: 100
 --- !u!95 &1201581211872609579
 Animator:
   serializedVersion: 7
