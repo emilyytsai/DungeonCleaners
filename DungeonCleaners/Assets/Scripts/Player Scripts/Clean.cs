@@ -4,6 +4,9 @@ public class Clean : MonoBehaviour
 {
     public float cleanRange = 1.3f;
     public KeyCode cleanKey = KeyCode.E;
+    [SerializeField] private string sweepSound;
+    [SerializeField] private string munchSound;
+    [SerializeField] [Range(0f, 1f)] private float munchSoundChance = 0.1f;
 
     // Pivot offset for 1x1 player starting at (0,0)
 
@@ -44,6 +47,20 @@ public class Clean : MonoBehaviour
     void ProcessCleanup(GameObject trash)
     {
         Debug.Log("Sweeping up: " + trash.name);
+
+        if (AudioManager.instance != null)
+        {
+            if (!string.IsNullOrEmpty(sweepSound))
+            {
+                AudioManager.instance.PlaySFX(sweepSound);
+            }
+
+            if (!string.IsNullOrEmpty(munchSound) && Random.value <= munchSoundChance)
+            {
+                AudioManager.instance.PlaySFX(munchSound);
+            }
+        }
+
         Destroy(trash);
 
         // Logic for healing the land goes here!
