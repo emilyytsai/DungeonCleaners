@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: f4ee1aef360b08844a206d327f7d2579
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5663248730866847522
+    second: portal hole_0
+  - first:
+      213: 4619002499017563111
+    second: portal hole_1
+  - first:
+      213: -7476957765617762454
+    second: portal hole_2
+  - first:
+      213: 9079514067437980735
+    second: portal hole_3
+  - first:
+      213: 4691920997360826246
+    second: portal hole_4
+  - first:
+      213: 2268789145695357835
+    second: portal hole_5
+  - first:
+      213: 6209077120905955118
+    second: portal hole_6
+  - first:
+      213: -5083921049379742692
+    second: portal hole_7
+  - first:
+      213: 22617909752574555
+    second: portal hole_8
+  - first:
+      213: 8386460539596807658
+    second: portal hole_9
+  - first:
+      213: -275170563473661061
+    second: portal hole_10
+  - first:
+      213: -4987428908507742071
+    second: portal hole_11
+  - first:
+      213: -214728368692608307
+    second: portal hole_12
+  - first:
+      213: 4792225875771443171
+    second: portal hole_13
+  - first:
+      213: -1084114004401363228
+    second: portal hole_14
+  - first:
+      213: 872531709206153988
+    second: portal hole_15
+  - first:
+      213: -4698884902533901718
+    second: portal hole_16
+  - first:
+      213: 886985189160952953
+    second: portal hole_17
+  - first:
+      213: -1081443738614882469
+    second: portal hole_18
+  - first:
+      213: -6860226653098006226
+    second: portal hole_19
+  - first:
+      213: -5616924296836860794
+    second: portal hole_20
+  - first:
+      213: -4237151522249918431
+    second: portal hole_21
+  - first:
+      213: 649405514332139243
+    second: portal hole_22
+  - first:
+      213: -5725510278581390505
+    second: portal hole_23
+  - first:
+      213: -93190431732988167
+    second: portal hole_24
+  - first:
+      213: -6105764323967433124
+    second: portal hole_25
+  - first:
+      213: -6708635637151297802
+    second: portal hole_26
+  - first:
+      213: -1685053803652215944
+    second: portal hole_27
+  - first:
+      213: -6700580452436891293
+    second: portal hole_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 192
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: portal hole_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 359
+        width: 411
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0fff1d8491861b0800000000000000
+      internalID: -5663248730866847522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 717
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb5592ec4ef91040800000000000000
+      internalID: 4619002499017563111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 370
+        width: 371
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f31cbd6828c3890800000000000000
+      internalID: -7476957765617762454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 696
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c8dc260f9e00e70800000000000000
+      internalID: 9079514067437980735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 696
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68773e9c94d0d1140800000000000000
+      internalID: 4691920997360826246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_5
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 696
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b0f6b15bb5c7f10800000000000000
+      internalID: 2268789145695357835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 696
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27ca9e8eb21b2650800000000000000
+      internalID: 6209077120905955118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_7
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 695
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cd699cdb84279b0800000000000000
+      internalID: -5083921049379742692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 666
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b523d5c7eda505000800000000000000
+      internalID: 22617909752574555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 607
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed9f796d61b26470800000000000000
+      internalID: 8386460539596807658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_10
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 575
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73228794d56e2cf0800000000000000
+      internalID: -275170563473661061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 575
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980c1ed05d719cab0800000000000000
+      internalID: -4987428908507742071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 539
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2c0e4bfa1250df0800000000000000
+      internalID: -214728368692608307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 488
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7cac03b08618240800000000000000
+      internalID: 4792225875771443171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 496
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e661af8e0474f0f0800000000000000
+      internalID: -1084114004401363228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 479
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b4f7677fadb1c00800000000000000
+      internalID: 872531709206153988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_16
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 470
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a625500b3153aceb0800000000000000
+      internalID: -4698884902533901718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_17
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 445
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974a8f084543f4c00800000000000000
+      internalID: 886985189160952953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_18
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 440
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f1a4346a0fdf0f0800000000000000
+      internalID: -1081443738614882469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_19
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 423
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e292d6fb4349bc0a0800000000000000
+      internalID: -6860226653098006226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_20
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 407
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68437cc9c1dac02b0800000000000000
+      internalID: -5616924296836860794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 389
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128b9c0d32d9235c0800000000000000
+      internalID: -4237151522249918431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 88
+        width: 54
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee62f4efd6230900800000000000000
+      internalID: 649405514332139243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_23
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 360
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753fe479cb6ea80b0800000000000000
+      internalID: -5725510278581390505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_24
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 359
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6071ccbcbe4bef0800000000000000
+      internalID: -93190431732988167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_25
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 363
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c560ba372b7f34ba0800000000000000
+      internalID: -6105764323967433124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_26
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 364
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe02109e6326e2a0800000000000000
+      internalID: -6708635637151297802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_27
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 368
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b83ed4e7c7d98e0800000000000000
+      internalID: -1685053803652215944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: portal hole_28
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 362
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a2976491c203a0800000000000000
+      internalID: -6700580452436891293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6885e0c814f341449882dc4c0c578e2f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      portal hole_0: -5663248730866847522
+      portal hole_1: 4619002499017563111
+      portal hole_10: -275170563473661061
+      portal hole_11: -4987428908507742071
+      portal hole_12: -214728368692608307
+      portal hole_13: 4792225875771443171
+      portal hole_14: -1084114004401363228
+      portal hole_15: 872531709206153988
+      portal hole_16: -4698884902533901718
+      portal hole_17: 886985189160952953
+      portal hole_18: -1081443738614882469
+      portal hole_19: -6860226653098006226
+      portal hole_2: -7476957765617762454
+      portal hole_20: -5616924296836860794
+      portal hole_21: -4237151522249918431
+      portal hole_22: 649405514332139243
+      portal hole_23: -5725510278581390505
+      portal hole_24: -93190431732988167
+      portal hole_25: -6105764323967433124
+      portal hole_26: -6708635637151297802
+      portal hole_27: -1685053803652215944
+      portal hole_28: -6700580452436891293
+      portal hole_3: 9079514067437980735
+      portal hole_4: 4691920997360826246
+      portal hole_5: 2268789145695357835
+      portal hole_6: 6209077120905955118
+      portal hole_7: -5083921049379742692
+      portal hole_8: 22617909752574555
+      portal hole_9: 8386460539596807658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
