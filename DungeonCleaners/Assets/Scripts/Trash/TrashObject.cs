@@ -14,10 +14,14 @@ public class TrashObject : MonoBehaviour
             GenerateID();
         }
 
-        if (TrashProgressManager.instance != null &&
-            TrashProgressManager.instance.HasCollectedTrash(trashID))
+        if (TrashProgressManager.instance != null)
         {
-            Destroy(gameObject);
+            TrashProgressManager.instance.RegisterTrash(trashID);
+
+            if (TrashProgressManager.instance.HasCollectedTrash(trashID))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -35,7 +39,6 @@ public class TrashObject : MonoBehaviour
     {
         Vector3 pos = transform.position;
         string sceneName = SceneManager.GetActiveScene().name;
-
-        trashID = sceneName + "_" + pos.x.ToString("F2") + "_" + pos.y.ToString("F2");
+        trashID = sceneName + "_" + gameObject.name + "_" + pos.x.ToString("F2") + "_" + pos.y.ToString("F2");
     }
 }
