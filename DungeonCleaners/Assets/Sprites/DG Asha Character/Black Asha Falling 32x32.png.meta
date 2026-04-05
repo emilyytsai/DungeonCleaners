@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Black Asha Falling 32x32_0: -484717903536467655
+      Black Asha Falling 32x32_1: -884679862509819132
+      Black Asha Falling 32x32_2: 4482115991993145706
+      Black Asha Falling 32x32_3: -4052501631205847146
+      Black Asha Falling 32x32_4: -5023570462010837932
+      Black Asha Falling 32x32_5: 7160010136643401009
+      Black Asha Falling 32x32_6: 4137074333739009780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
