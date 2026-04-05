@@ -6,7 +6,6 @@ public class Clean : MonoBehaviour
     public KeyCode cleanKey = KeyCode.E;
 
     // Pivot offset for 1x1 player starting at (0,0)
-    private Vector2 centerOffset = new Vector2(0.5f, 0.5f);
 
     // List of tags to look for
     public string[] trashTags = { "solidTrash", "softTrash" };
@@ -21,7 +20,7 @@ public class Clean : MonoBehaviour
 
     void CleanNearbyTrash()
     {
-        Vector2 playerCenter = (Vector2)transform.position + centerOffset;
+        Vector2 playerCenter = (Vector2)transform.position;
 
         // Loop through each tag type (Soft and Solid)
         foreach (string tag in trashTags)
